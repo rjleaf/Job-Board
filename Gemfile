@@ -60,7 +60,10 @@ gem 'bulma-rails'
 gem 'simple_form'
 gem 'sidekiq'
 group :development, :test do
-  gem 'better_errors'
-  gem 'guard'
-  gem 'guard-livereload'
+gem 'better_errors'
+gem 'guard'
+gem 'guard-livereload'
+gem 'carrierwave', '~> 1.0'
+gem 'mini_magick'
+gem 'stripe', '~> 3.11'
 end
