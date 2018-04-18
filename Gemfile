@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-ruby '2.5.0'
+ruby '2.4.3'
 
 git_source(:github) do |repo_name|
   repo_name = "#{repo_name}/#{repo_name}" unless repo_name.include?("/")
@@ -67,4 +67,4 @@ gem 'mini_magick'
 gem 'stripe', '~> 3.11'
 gem 'trix', '~> 0.11.1'
 gem "figaro"
-gem 'webpacker', '~> 0.1'
+gem 'webpacker'
