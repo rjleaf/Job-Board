@@ -59,7 +59,6 @@ gem 'devise'
 gem 'bulma-rails'
 gem 'simple_form'
 gem 'sidekiq'
-group :development, :test do
 gem 'better_errors'
 gem 'guard'
 gem 'guard-livereload'
