@@ -67,3 +67,4 @@ gem 'mini_magick'
 gem 'stripe', '~> 3.11'
 gem 'trix', '~> 0.11.1'
 gem "figaro"
+gem 'webpacker', '~> 0.1'
